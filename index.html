@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divya Asnani — Portfolio</title>
+  <meta name="description"
+    content="Portfolio of Divya Asnani, Computer Science Engineering (AI & ML) student at Vishwakarma Institute of Technology, Pune.">
+  <!-- Google Fonts serif fallback cascade for The Seasons / Editorial Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Top anchor for Home icon navigation -->
+  <div id="top"></div>
+
+  <!-- Navigation Bar -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="#top" class="brand-name">Divya Asnani</a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+
+      <nav class="topmenu site-nav" id="site-nav" aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Project Details</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#recommendations">Recommendations</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- About Me Section -->
+    <section id="about" class="section about-section">
+      <div class="section-container">
+        <div class="about-grid">
+          <div class="about-image-column">
+            <div class="profile-frame">
+              <img src="assets/profile.jpg" alt="Divya Asnani" class="profile-image" id="profile-img">
+              <div class="profile-fallback" id="profile-fallback" aria-hidden="true">
+                <span class="monogram">DA</span>
+                <span class="fallback-caption">Divya Asnani</span>
+              </div>
+            </div>
+            <div class="academic-badge">
+              <span class="badge-label">Academic Standing</span>
+              <span class="badge-value">CGPA: 9.78</span>
+            </div>
+          </div>
+
+          <div class="about-content-column">
+            <span class="section-kicker">Curriculum Vitae &amp; Overview</span>
+            <h1 class="profile_name">Divya Asnani</h1>
+            <p class="profile-role">B.Tech Computer Science Engineering — Artificial Intelligence &amp; Machine Learning
+            </p>
+            <p class="profile-institution">Vishwakarma Institute of Technology, Pune &bull; 2024–2028</p>
+
+            <div class="divider"></div>
+
+            <div class="profile-summary">
+              <p class="lead-text">
+                Computer Science Engineering student specializing in Artificial Intelligence and Machine Learning at
+                Vishwakarma Institute of Technology, Pune. Passionate about intelligent systems, software engineering,
+                research, and building technology-driven solutions to real-world problems. Interested in AI/ML,
+                full-stack development, data-driven systems, and innovation.
+              </p>
+            </div>
+
+            <div class="about-details-grid">
+              <div class="detail-block">
+                <h3 class="detail-heading">Technical Interests</h3>
+                <ul class="detail-list">
+                  <li>Artificial Intelligence &amp; Deep Learning</li>
+                  <li>Medical Image Classification &amp; Computer Vision</li>
+                  <li>Distributed Backend Architecture &amp; APIs</li>
+                  <li>Data-Driven Systems &amp; Relational Modelling</li>
+                </ul>
+              </div>
+
+              <div class="detail-block">
+                <h3 class="detail-heading">Academic Profile</h3>
+                <p class="detail-text">
+                  Enrolled in the honors-level B.Tech AIML program at VIT Pune with a current cumulative grade point
+                  average of <strong>9.82</strong>. Dedicated to core computer science fundamentals, algorithmic
+                  problem-solving, and applied AI research.
+                </p>
+              </div>
+            </div>
+
+            <div class="intro-philosophy">
+              <h3 class="detail-heading">Approach &amp; Engineering Focus</h3>
+              <p class="detail-text">
+                My approach bridges theoretical AI models with production-grade engineering. Through rigorous
+                implementation—ranging from convolutional attention networks to distributed transaction infrastructure—I
+                prioritize modular architecture, verifiable performance, and clean maintainable code.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-kicker">Technical Competencies</span>
+          <h2 class="section-title">Skills &amp; Technologies</h2>
+          <p class="section-subtitle">Core programming languages, frameworks, and scientific computing disciplines.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Skill 1: Python -->
+          <div class="skill skill-card">
+            <div class="skill-logo-wrapper">
+              <img src="assets/python.svg" alt="Python Logo" class="skill-logo">
+            </div>
+            <h3 class="skill-name">Python</h3>
+            <span class="skill-domain">Data Science &amp; AI</span>
+          </div>
+
+          <!-- Skill 2: Java -->
+          <div class="skill skill-card">
+            <div class="skill-logo-wrapper">
+              <img src="assets/java.svg" alt="Java Logo" class="skill-logo">
+            </div>
+            <h3 class="skill-name">Java</h3>
+            <span class="skill-domain">OOP &amp; Distributed Systems</span>
+          </div>
+
+          <!-- Skill 3: SQL -->
+          <div class="skill skill-card">
+            <div class="skill-logo-wrapper">
+              <img src="assets/sql.svg" alt="SQL Logo" class="skill-logo">
+            </div>
+            <h3 class="skill-name">SQL</h3>
+            <span class="skill-domain">Relational Databases</span>
+          </div>
+
+          <!-- Skill 4: HTML -->
+          <div class="skill skill-card">
+            <div class="skill-logo-wrapper">
+              <img src="assets/html5.svg" alt="HTML5 Logo" class="skill-logo">
+            </div>
+            <h3 class="skill-name">HTML</h3>
+            <span class="skill-domain">Semantic Web Structuring</span>
+          </div>
+
+          <!-- Skill 5: CSS -->
+          <div class="skill skill-card">
+            <div class="skill-logo-wrapper">
+              <img src="assets/css3.svg" alt="CSS3 Logo" class="skill-logo">
+            </div>
+            <h3 class="skill-name">CSS</h3>
+            <span class="skill-domain">Responsive &amp; Visual Design</span>
+          </div>
+
+          <!-- Skill 6: Machine Learning -->
+          <div class="skill skill-card">
+            <div class="skill-logo-wrapper">
+              <img src="assets/machine-learning.svg" alt="Machine Learning Icon" class="skill-logo">
+            </div>
+            <h3 class="skill-name">Machine Learning</h3>
+            <span class="skill-domain">Neural Networks &amp; Vision</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Details Section -->
+    <section id="projects" class="section projects-section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-kicker">Selected Engineering Works</span>
+          <h2 class="section-title">Project Details</h2>
+          <p class="section-subtitle">Architectural explorations across computer vision, distributed systems, and
+            enterprise portals.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-number">01</span>
+              <h3 class="project-title">NeuroDetect — Brain Tumor Classification</h3>
+            </div>
+            <p class="project-description">
+              An AI-powered brain tumor classification project using InceptionV3 and CBAM to analyze MRI images and
+              improve feature extraction for medical image classification.
+            </p>
+            <div class="project-tech-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Deep Learning</span>
+              <span class="tag">InceptionV3</span>
+              <span class="tag">CBAM</span>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-number">02</span>
+              <h3 class="project-title">AICTE OneDesk — Integrated Complaint Monitoring</h3>
+            </div>
+            <p class="project-description">
+              A centralized institutional complaint monitoring and status dashboard designed to consolidate grievance
+              cases, enable cross-bureau coordination, track case movement, and support AI-assisted complaint matching.
+            </p>
+            <div class="project-tech-tags">
+              <span class="tag">React</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">FastAPI</span>
+              <span class="tag">Supabase</span>
+              <span class="tag">AI</span>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-number">03</span>
+              <h3 class="project-title">PaySphere — Distributed Payment Infrastructure</h3>
+            </div>
+            <p class="project-description">
+              A mini Stripe-inspired payment infrastructure platform designed around payment intents, merchants,
+              customers, transactions, webhook events, and audit logs.
+            </p>
+            <div class="project-tech-tags">
+              <span class="tag">Java</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">REST APIs</span>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-number">04</span>
+              <h3 class="project-title">SimplyOffbeat — Travel Website and Admin Portal</h3>
+            </div>
+            <p class="project-description">
+              A travel platform and administrative portal featuring destination and tour catalogues, CRM, itinerary
+              management, blogs, analytics, role-based employee management, and AI-powered concierge capabilities.
+            </p>
+            <div class="project-tech-tags">
+              <span class="tag">TypeScript</span>
+              <span class="tag">Supabase</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">CRM</span>
+              <span class="tag">AI</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendations Section -->
+    <section id="recommendations" class="section recommendations-section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-kicker">Peer &amp; Academic Appraisals</span>
+          <h2 class="section-title">Recommendations</h2>
+          <p class="section-subtitle">Evaluations reflecting technical problem-solving, collaboration, and engineering
+            initiative.</p>
+        </div>
+
+        <!-- Recommendations List -->
+        <div class="recommendations-grid" id="recommendations-container">
+          <!-- Recommendation 1: Technical Problem-Solving -->
+          <article class="recommendation-card">
+            <div class="quote-mark" aria-hidden="true">&ldquo;</div>
+            <p class="recommendation recommendation-text">
+              Divya demonstrates an exceptional ability to decompose intricate machine learning architectures into
+              robust, production-grade solutions. Her analytical rigor in optimizing model convergence and data
+              pipelines stands out distinctly.
+            </p>
+            <div class="recommendation-author">
+              <span class="author-name">Peer Reviewer — Technical Focus</span>
+              <span class="author-role">Academic Collaborator &bull; Technical Problem-Solving</span>
+            </div>
+          </article>
+
+          <!-- Recommendation 2: Collaboration & Teamwork -->
+          <article class="recommendation-card">
+            <div class="quote-mark" aria-hidden="true">&ldquo;</div>
+            <p class="recommendation recommendation-text">
+              Working alongside Divya on full-stack and systems projects is a masterclass in clarity, dependable
+              communication, and proactive teamwork. She elevates group problem-solving and consistently ensures high
+              code quality across every deliverable.
+            </p>
+            <div class="recommendation-author">
+              <span class="author-name">Project Collaborator</span>
+              <span class="author-role">Engineering Team &bull; Collaboration &amp; Teamwork</span>
+            </div>
+          </article>
+
+          <!-- Recommendation 3: Initiative, Learning & Innovation -->
+          <article class="recommendation-card">
+            <div class="quote-mark" aria-hidden="true">&ldquo;</div>
+            <p class="recommendation recommendation-text">
+              Divya exhibits remarkable intellectual curiosity and self-driven initiative. Whether exploring novel deep
+              learning attention mechanisms or distributed transaction architectures, she rapidly masters complex
+              paradigms and applies them with meticulous precision.
+            </p>
+            <div class="recommendation-author">
+              <span class="author-name">Senior Academic Peer</span>
+              <span class="author-role">Research Group &bull; Initiative &amp; Innovation</span>
+            </div>
+          </article>
+        </div>
+
+        <!-- Recommendation Form -->
+        <div class="recommendation-form-wrapper">
+          <div class="form-header">
+            <h3 class="form-title">Submit a Recommendation</h3>
+            <p class="form-instructions">Leave a professional endorsement or peer evaluation to append to the portfolio
+              record.</p>
+          </div>
+
+          <form id="recommendation-form" class="recommendation-form" novalidate>
+            <div class="form-group">
+              <label for="recommendation-input" class="form-label">Recommendation Text <span
+                  class="required-asterisk">*</span></label>
+              <textarea id="recommendation-input" name="recommendation" rows="4" class="form-textarea"
+                placeholder="Write your recommendation here regarding technical problem-solving, collaboration, or initiative..."
+                required></textarea>
+              <span class="validation-message" id="validation-message" aria-live="polite"></span>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" id="submit-recommendation-btn" class="btn-submit">Submit Recommendation</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-meta">
+        <span class="footer-title">Divya Asnani</span>
+        <p class="footer-text">B.Tech Computer Science Engineering (AIML) &bull; Vishwakarma Institute of Technology,
+          Pune</p>
+      </div>
+      <div class="footer-copyright">
+        <p>&copy; 2024–2028 Divya Asnani. Designed with an editorial, minimalist aesthetic.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Working Home Icon fixed at bottom-right corner -->
+  <a href="#top" id="home-icon" class="iconbutton home-icon" aria-label="Go to top">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+      <polyline points="9 22 9 12 15 12 15 22" />
+    </svg>
+    <span class="home-icon-tooltip">Top</span>
+  </a>
+
+  <!-- Custom Submission Popup Modal (Shown ONLY upon valid recommendation submission) -->
+  <div id="popup-overlay" class="popup-overlay" aria-hidden="true">
+    <div class="popup-modal" role="dialog" aria-modal="true" aria-labelledby="popup-title">
+      <div class="popup-header">
+        <div class="popup-icon-badge" aria-hidden="true">&#10003;</div>
+        <h3 id="popup-title" class="popup-title">Recommendation Received</h3>
+      </div>
+      <div class="popup-body">
+        <p class="popup-message">
+          Thank you! Your recommendation has been successfully validated and appended to the portfolio record.
+        </p>
+      </div>
+      <div class="popup-footer">
+        <button type="button" id="popup-close-btn" class="popup-close-btn">Dismiss</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
